@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="guiTextAdventure.Controller">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="-Infinity" valignment="TOP" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="-Infinity" valignment="TOP" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="-Infinity" valignment="TOP" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Label fx:id="gameLabel1" text="" GridPane.halignment="CENTER"  GridPane.rowIndex="0" wrapText="true"/>
+      <Label fx:id="gameLabel2" text="Welcome to the best text adventure ever! Your goal is to go to the room behind the door with some warm color.
+Keep in mind you need the right key to be able to go there..." GridPane.halignment="CENTER"  GridPane.rowIndex="1" wrapText="true"/>
+      <FlowPane fx:id="buttonsPane" orientation="VERTICAL" alignment="CENTER" GridPane.rowIndex="2" />
+   </children>
+</GridPane>
